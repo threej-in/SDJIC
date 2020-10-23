@@ -150,3 +150,48 @@ p{
     color: inherit;
     text-decoration: underline;
 }
+
+/*responsive design*/
+@media only screen and (max-width:480px){
+    body{
+        width: 100%;
+    }
+    .site-title{
+        font-size: 28px;
+        padding-top: 5px;
+    }
+    .navigation a{
+        width: 33%;
+        text-align: center;
+    }
+    .content{
+        margin: 0 !important;
+        padding: 15px !important;
+    }
+    .content .heading{
+        font-size: 22px;
+    }
+    .content p{
+        font-size: 18px;
+    }
+    .row{
+        width: 100%;
+    }
+    .events{
+        display: block;
+    }
+    .contact{
+        margin: 10px;
+        padding: 15px;
+    }
+    .inline-content-wrapper{
+        display: block;
+    }
+    .inline-content{
+        width: 100%;
+    }
+    .footer{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
