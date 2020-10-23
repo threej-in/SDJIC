@@ -1,1 +1,152 @@
-// css file
+/* Main css file */
+
+body{
+    max-width: 1100px;
+    margin: auto;
+    background-color: whitesmoke;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+}
+
+/* Header style */
+.header{
+    position: relative;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+.header a{
+    display: flex;
+}
+.site-logo{
+    width: 70px;
+    height: 60px;
+    display: inline-block;
+}
+.site-title{
+    color: brown;
+    display: inline-block;
+    font-size: 39px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    padding-top: 12px;
+    padding-left: 20px;
+    margin: 0;
+}
+.navigation{
+    background-color:darkred;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 1.2px;
+    color: white;
+    display: flex;
+}
+.navigation a{
+    padding: 12px;
+    color: white;
+}
+.navigation a:hover{
+    background-color: rgba(204, 153, 153, 0.678);
+}
+/* Header style end*/
+
+/* Main body style*/
+.main{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("images/sdjb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:75%;
+    max-height:auto;
+    width: 100%;
+    font-weight: 700;
+    padding:10px;
+    color: darkred;
+    position: relative;
+    box-sizing:border-box;
+}
+.main:hover{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/sdjb.jpg");
+}
+.main .img-caption{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.main .content{
+    background-color: rgba(252, 242, 210, 0.9);
+    position: relative;
+    margin: 15px;
+    padding: 20px 50px 20px 50px ;
+    font-size: 1em;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+    color:rgb(48, 48, 48);
+    box-sizing: border-box;
+}
+.main .heading{
+    color: darkred;
+    text-decoration: underline;
+    text-align: center;
+}
+.main h3{
+    color: darkred;
+    text-decoration: underline;
+}
+.row{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    margin: 10px 0 10px 0;
+}
+.row p{
+    padding: 20px;
+}
+.events{
+    display: flex;
+}
+.contact{
+    background-color: white;
+    margin: 20px;
+    padding: 50px;
+    flex-basis: 1;
+}
+.child-content{
+    position: relative;
+    width: 50%;
+}
+.inline-content-wrapper{
+    display: flex;
+}
+.inline-content{
+    width: 33%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/* Main body style ends*/
+
+/*Footer style*/
+.footer{
+    display: block;
+    text-align: center;
+    line-height: normal;
+    font-size: 1em;
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+    letter-spacing: 1.2px;
+}
+.footer a{
+    color: inherit;
+    text-decoration: underline;
+}
