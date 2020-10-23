@@ -1,61 +1,68 @@
+<!-- Events Page-->
 <html>
+<!-- HEAD -->
 <head>
     <title>SDJIC</title>
-    <link rel="icon" href="images/icon.PNG">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
-    
+    <link rel="icon" href="../includes/images/icon.png">
+    <link rel="stylesheet" href="../includes/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
+<!-- BODY -->
 <body>
-    <!-- HEADER-->
-    <div style="font-size: 40px;"><a href="home.html" style="color:brown; text-decoration: none;"><b><img src="images/icon.PNG" height="50px">&nbsp;SDJ International College</b></a></div>
-    <!-- NAVIGATION BAR-->
-    <div style="background-color:darkred;
-                padding: 8px 8px 8px 78px;
-                margin: 10px -10px 0 -10px;
-                font-weight: 600;
-                color: white;">
-        
-        <text><a href="about.html" style="color: white">About us</a> &nbsp;|&nbsp;  
-            <a href="events.html" style="color: lightblue">Events</a> &nbsp;|&nbsp; 
-            <a href="contact.html" style="color: white">Contact us</a>
-        </text>
-        
+    <!-- HEADER -->
+    <div class="header">
+        <a href="../index.html">
+            <div class="site-logo">
+                <img src="../includes/images/icon.png" width="100%" height="100%"/>
+            </div>
+            <div class="site-title">SDJ International College</div>
+        </a>
     </div>
+    <!-- HEADER END -->
+
+    <!-- NAVIGATION BAR -->
+    <div class="navigation">
+        <a href="about.html">About us</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact us</a>
+    </div>
+    <!-- NAVIGATION BAR END -->
+
     <!-- MAIN CONTENT-->
-    <div style="
-                height:70%;
-                width: 100%;
-                font-weight: 700;
-                padding:0px;
-                margin-top:10px;
-                color: brown;
-                position: relative;">
-        <div style="float: left;
-                    width: 50%">
-            <h3>Upcoming Events</h3>
-            <marquee direction="up" height="70%" width="98%" scrollamount="2">
-            <ul><li>YOUTH FESTIVAL</li><br>
-                <li>CHRISTMAS CARNIVAL</li><br>
-                <li>INFERNO</li><br>    
-                </ul></marquee></div>
-        <div style="float: left;
-                    width: 50%">
-            <h3>Past Events</h3>
-            <marquee direction="up" height="70%" width="98%" scrollamount="3">
-                <ul><li>“Yuva Kavi Sammelan’19</li><br>
-                <li>Ganesh Visarjan [06, Sept 2019]</li><br>
-                <li>SDJIC Janmashtami celebration [23, Aug 2019]</li><br>
-                <li>“Comienzo’19” [21, Aug 2019]</li><br>
-                <li>“College Ke Tashanbaaz” – Talent Hunt Show organized by RED 95 F.M. [19, Aug 2019]</li><br>
-                </ul></marquee></div>
+    <div class="main">
+        <div class="content">
+            <div class="events">
+            <div class="child-content">
+                <h3>Upcoming Events</h3>
+                <marquee direction="up" height="55%" width="98%" scrollamount="2">
+                    <ul>
+                        <li>YOUTH FESTIVAL</li><br>
+                        <li>CHRISTMAS CARNIVAL</li><br>
+                        <li>INFERNO</li><br>    
+                    </ul>
+                </marquee>
+            </div>
+            <div class="child-content">
+                <h3>Past Events</h3>
+                <marquee direction="up" height="55%" width="98%" scrollamount="3">
+                    <ul>
+                        <li>“Yuva Kavi Sammelan’19</li><br>
+                        <li>Ganesh Visarjan [06, Sept 2019]</li><br>
+                        <li>SDJIC Janmashtami celebration [23, Aug 2019]</li><br>
+                        <li>“Comienzo’19” [21, Aug 2019]</li><br>
+                        <li>“College Ke Tashanbaaz” – Talent Hunt Show organized by RED 95 F.M. [19, Aug 2019]</li><br>
+                    </ul>
+                </marquee>
+            </div>
+        </div>
+        </div>
     </div>
-    <!-- FOOTER-->
-    <div style="background-color: darkred;
-                color: white;
-                margin: 10px -10px 0px -10px;
-                padding:10px 30px 10px 10px;">
-        <p style="text-align:left;">&#9400; COPYRIGHT 2019 | SDJ International College <span style="float:right;">+91 9876543210 <br> +91 9998887775</span></p>
-        
-    </div>
+<!-- FOOTER-->
+<div class="footer">
+    <p>COPYRIGHT &#9400; 2019 | SDJ International College</p>
+    <p>Built by <a href="https://threej.in/development">threej</p>
+</div>
+<!-- FOOTER END-->
 </body>
 </html>
